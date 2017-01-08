@@ -1,0 +1,31 @@
+{
+  "name": "wa-clone",
+  "version": "1.0.0",
+  "description": "Repo for project-based class.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -Rf dist && babel src -d dist",
+    "babel-node": "babel-node",
+    "nodemon": "nodemon --exec npm run babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twelve17/wa-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twelve17/wa-clone/issues"
+  },
+  "homepage": "https://github.com/twelve17/wa-clone#readme",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.0",
+    "eslint-plugin-react": "^6.9.0",
+    "nodemon": "^1.11.0"
+  }
+}
