@@ -1,6 +1,7 @@
 import React from 'react';
 import $ from 'jquery';
 import urlJoin from 'url-join';
+import "./increment.scss";
 
 class Increment extends React.Component {
 	constructor(props) {
